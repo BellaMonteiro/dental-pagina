@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentista</title>
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="descripion" content="pagina de consultorio dental, marcação de cosulta, duvidas e informações.">
+    <meta name=" kaywords" content="dentista, consultas, dúvidas e informações, contato">
+    <meta name="author" content="GNSM">
+</head>
+
+<body>
+    <header>
+        <span>Consultório Dental</span>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="doutora" src="img/doutora 5.webp">
+        </div>
+
+        <div class="box-txt">
+
+            <h1>Marque Sua Consulta</h1>
+
+
+            <h2>O Sorriso é seu <br>Cartão de visitas</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam assumenda nemo accusantium
+                similique totam harum repudiandae! .</p>
+
+            <a href="#" class="btn-hero">Marcar Consulta</a>
+
+        </div>
+
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidades 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic esse voluptatem, quia odio autem magnam
+                accusantium doloremque exercitationem recusandae praesentium odit est dolor eaque, eligendi ipsam ut,
+                vero itaque laudantium.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidades 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic esse voluptatem, quia odio autem magnam
+                accusantium doloremque exercitationem recusandae praesentium odit est dolor eaque, eligendi ipsam ut,
+                vero itaque laudantium.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidades 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic esse voluptatem, quia odio autem magnam
+                accusantium doloremque exercitationem recusandae praesentium odit est dolor eaque, eligendi ipsam ut,
+                vero itaque laudantium.</p>
+        </div>
+
+        <a href="#" class="m-top btn-hero">Marcar Consulta</a>
+    </section>
+
+    <footer>
+        <p>
+            copyright 2024 ©, Dentista e consultorio GNSM™ Todos os direitos reservados.
+        </p>
+    </footer>
+    <div class="whats">
+        <a target="_blank" href="#">
+            <img width="50" src="img/whatsapp-logo-png.webp">
+        </a>
+    </div>
+    <script>
+        //pegar o elemento 
+        const doutora = document.getElementById('doutora');
+
+        //evento quando mouse estiver em cima da imagem
+        doutora.addEventListener('mouseover', function () {
+            doutora.src = "img/dentista15.webp"
+        });
+
+        //evento quando mouse sair de cima da imagem
+        doutora.addEventListener('mouseout', function () {
+            doutora.src = "img/dentista16.webp"
+        });
+    </script>
+
+</body>
+
+
+
+</html>
